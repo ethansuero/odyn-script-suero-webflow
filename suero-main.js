@@ -2009,13 +2009,13 @@ onReady(() => {
   }
 
   // All devices
-  initBarScaleReveal();
+  //initBarScaleReveal();
 
   // Desktop only (992px+)
   if (window.innerWidth >= 992) {
     initLinkHoverChars();
     initFooterReveal();
-    initImagesOnPathScroll();
+    //initImagesOnPathScroll();
     initMotionPathTitleReveal();
     initFeaturedHorizontalScroll();
     initFeaturedVideoHover();
@@ -2029,7 +2029,7 @@ onReady(() => {
   // Desktop non-touch only (992px+)
   if (window.innerWidth >= 992 && !isTouch) {
     initNavDesktop();
-    initHeroCursorCard();
+    //initHeroCursorCard();
     initReviewsHoverAnimation();
     initCursorMarqueeEffect();
     initButtonLinkHover();
@@ -2037,7 +2037,7 @@ onReady(() => {
     if (!prefersReducedMotion) {
       initButtonCharacterStagger();
       initButtonArrowAnimation();
-      initMiniShowreelPlayer();
+      //initMiniShowreelPlayer();
     }
   }
 
